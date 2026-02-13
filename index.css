@@ -1,0 +1,16 @@
+/* Base Styles */
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Custom scrollbar to keep the UI clean */
+::-webkit-scrollbar {
+    width: 0px;
+}
+
+* {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
